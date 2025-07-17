@@ -1,0 +1,36 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.chat-box {
+    height: 500px;
+    overflow-y: auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.user-msg {
+    text-align: right;
+}
+
+.bot-msg {
+    text-align: left;
+}
+
+.message {
+    padding: .5rem 1rem;
+    border-radius: 15px;
+    margin-bottom: .5rem;
+    display: inline-block;
+    max-width: 75%;
+}
+
+.user-msg .message {
+    background-color: #d1e7dd;
+}
+
+.bot-msg .message {
+    background-color: #e2e3e5;
+}
